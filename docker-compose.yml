@@ -8,8 +8,6 @@ services:
     - "5005:5005"
     volumes:
     - "./politician_bot/:/app/"
-    command:
-    - run
 
   # action_server:
   #   image: rasa/rasa-sdk:latest
