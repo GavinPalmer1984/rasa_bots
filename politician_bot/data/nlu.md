@@ -34,6 +34,8 @@
 - what should the candidate do
 - what should the elected representative do
 - what should the leader do
+- what is the job of the president of the united states?
+- what should the governor of Alabama do?
 
 ## intent:intentions_alone_are_not_satisfactory
 - your intentions don't matter
@@ -50,6 +52,8 @@
 - why did you do this
 - why are you here
 - what do you want
+- what is your primary goal?
+- what do you want?
 
 ## intent:political_opinions
 - what is your opinion
@@ -73,6 +77,7 @@
 - what is the fourth branch of government
 - what is the fourth frontier
 - what is the purpose of the it system
+- how do we solve complex problems?
 
 ## intent:what_is_wrong_with_the_internet
 - what is wrong with the internet
@@ -90,11 +95,14 @@
 - why will democracy work
 - how will democracy work
 - how does volunteering work
+- how will you organize volunteers?
+- what is crowd sourcing?
 
 ## intent:what_is_a_crowd_sourcing_example
 - what is an example of crowd sourcing
 - crowd sourcing can not work
 - crowd sourcing is not proven
+- how does the it system work?
 
 ## intent:what_is_another_name_for_the_it_system
 - what should we call the it system
@@ -158,6 +166,7 @@
 - what is an example of the it system helping to improve the union
 - coronavirus
 - cobol
+- how would you deal with coronavirus?
 
 ## intent:what_about_justice
 - what is justice
@@ -183,6 +192,7 @@
 - i fight for social justice
 - i want social justice
 - social justice
+- how can we get justice?
 
 ## intent:what_is_wrong_with_our_current_justice_system
 - what is wrong with our justice system
@@ -430,6 +440,7 @@
 - unconditional love
 - compassion
 - forgiveness
+- are you a christian?
 
 ## intent:buddhism
 - buddha
@@ -438,6 +449,8 @@
 - suffering
 - attachment
 - peacemakers
+- are you the buddha?
+- are you a buddhist?
 
 ## intent:shamanism
 - shaman
@@ -458,6 +471,8 @@
 - plants
 - animals
 - life
+- are you a shamn?
+- are you a shaman?
 
 ## intent:islam
 - islam
@@ -466,6 +481,8 @@
 - muhammad
 - prophet muhammad
 - usary
+- are you a muslim?
+- are you islamic?
 
 ## intent:health_care_responsibility
 - you need to have discipline
@@ -496,6 +513,8 @@
 - the defense department wastes money
 - middle class welfare system
 - welfare system for the middle class
+- military industrial complex
+- i don't like the military industrial complex
 
 ## intent:military_purpose
 - why do we have a military
@@ -558,6 +577,7 @@
 - i have good ideas but nobody is listening
 - i can't get in touch
 - i want to help
+- what can I do to help?
 
 ## intent:housing
 - banks should not charge interest
