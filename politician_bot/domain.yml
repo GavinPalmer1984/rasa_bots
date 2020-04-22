@@ -328,6 +328,14 @@ responses:
   utter_medicine:
   - text: "The price of many medicines is extraordinarily high because of the controlled substances act and the food and drug administration."
 
+# Other
+
+  utter_conservatives:
+  - text: "Conservatives are risk averse."
+
+  utter_liberals:
+  - text: "Liberals are not risk averse."
+
 session_config:
   session_expiration_time: 360  # value in minutes
   carry_over_slots_to_new_session: true
