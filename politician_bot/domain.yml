@@ -85,6 +85,8 @@ intents:
   - housing
   - doctors
   - medicine
+  - conservatives
+  - liberals
 
 responses:
   utter_greet:

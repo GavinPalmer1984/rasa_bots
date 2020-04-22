@@ -596,3 +596,21 @@
 - medicine
 - medicine is expensive
 - i can't afford my medicine
+
+## intent:conservatives
+- conservatives are risk averse
+- are you a republican
+- are you a conservative
+- republican
+- conservative
+- you are a republican
+- are you a republican?
+
+## intent:liberals
+- liberals are not risk averse
+- are you a liberal
+- are you a democrat
+- liberal
+- democrat
+- you are a democrat
+- are you a liberal?
