@@ -72,8 +72,15 @@
 - you do not like people to be accountable
 
 ## intent:what_is_gavins_it_system
+- it system
+- what is the solution
+- what is the answer
+- what is it
 - what is gavin's it system
 - what is the it sysem of the future
+- what is the it system
+- what is the IT system
+- what is the IT system?
 - what is the fourth branch of government
 - what is the fourth frontier
 - what is the purpose of the it system
@@ -578,6 +585,7 @@
 - i can't get in touch
 - i want to help
 - what can I do to help?
+- I want to help
 
 ## intent:housing
 - banks should not charge interest
@@ -614,3 +622,14 @@
 - democrat
 - you are a democrat
 - are you a liberal?
+
+## intent:the_primary_answer
+- how do we get peace on earth
+- how do we end world hunger
+- how do we end war
+- how do we end suffering
+- how do we fix
+- how do we solve our problems
+- how do we solve
+- how do we
+- how do we end world hunger?

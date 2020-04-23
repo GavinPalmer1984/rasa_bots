@@ -1,343 +1,437 @@
+actions:
+- utter_about_claims_of_injury
+- utter_about_needing_more_than_basic_skills_for_defense
+- utter_about_prisons
+- utter_about_wealth_gaps
+- utter_about_zero_sum
+- utter_anarchy_is_liberty
+- utter_appointees
+- utter_aptitude_database
+- utter_ask_rephrase
+- utter_belief
+- utter_big_bang_theory
+- utter_buddhism
+- utter_christianity
+- utter_committees
+- utter_competance_and_merit
+- utter_conservatives
+- utter_coronavirus_example_problem
+- utter_corruption
+- utter_councils
+- utter_democracy_can_not_work
+- utter_democracy_is_tyranny_by_the_majority
+- utter_do_you_want_anarchy
+- utter_doctors
+- utter_drugs
+- utter_education
+- utter_end_result_of_the_it_system
+- utter_example_of_actual_domestic_tranquility
+- utter_example_of_providing_for_general_welfare
+- utter_globalism
+- utter_goodbye
+- utter_greet
+- utter_health_care_costs
+- utter_health_care_responsibility
+- utter_healthiness
+- utter_housing
+- utter_how_can_we_discourage_wealth_in_zero_sum_games
+- utter_how_do_you_know_the_military_is_inefficient
+- utter_how_does_democracy_impact_the_military
+- utter_how_does_the_it_system_create_a_more_perfect_union
+- utter_how_should_we_utilize_the_internet
+- utter_intentions_alone_are_not_satisfactory
+- utter_is_it_possible_to_satisfy_all_claims_of_injury
+- utter_islam
+- utter_liberals
+- utter_medicine
+- utter_military
+- utter_military_purpose
+- utter_military_spending
+- utter_not_all_theft_is_equal
+- utter_political_opinions
+- utter_primary_goal
+- utter_robotics
+- utter_sacrifice
+- utter_safety_nets
+- utter_scapegoat
+- utter_shamanism
+- utter_systemic_corruption
+- utter_the_primary_answer
+- utter_theft_is_already_illegal
+- utter_war
+- utter_what_about_a_more_perfect_union
+- utter_what_about_insuring_domestic_tranquility
+- utter_what_about_justice
+- utter_what_about_promoting_the_general_welfare
+- utter_what_about_providing_for_the_common_defense
+- utter_what_about_securing_liberty
+- utter_what_about_social_justice
+- utter_what_about_the_birth_lottery
+- utter_what_about_the_rich
+- utter_what_does_religion_mean_to_you
+- utter_what_is_a_crowd_sourcing_example
+- utter_what_is_a_game
+- utter_what_is_another_name_for_the_it_system
+- utter_what_is_basic_oppportunity
+- utter_what_is_crowd_sourcing
+- utter_what_is_gavins_it_system
+- utter_what_is_the_origin_of_the_it_system
+- utter_what_is_wrong_with_meeting_face_to_face
+- utter_what_is_wrong_with_our_current_justice_system
+- utter_what_is_wrong_with_postal_services
+- utter_what_is_wrong_with_the_internet
+- utter_what_is_wrong_with_video_conferencing
+- utter_what_is_your_religion
+- utter_what_is_zero_sum
+- utter_what_should_our_powerful_leaders_do
+- utter_what_the_candidate_should_do
+- utter_who_is_gavin
+- utter_why_do_we_need_councils
+- utter_why_gavin_created_the_bot
+- utter_why_gavin_is_a_candidate
 intents:
-  - greet
-  - goodbye
-  - who_is_gavin
-  - why_gavin_is_a_candidate
-  - why_gavin_created_the_bot
-  - what_the_candidate_should_do
-  - intentions_alone_are_not_satisfactory
-  - primary_goal
-  - political_opinions
-  - scapegoat
-  - what_is_gavins_it_system
-  - what_is_wrong_with_the_internet
-  - how_should_we_utilize_the_internet
-  - what_is_crowd_sourcing
-  - what_is_a_crowd_sourcing_example
-  - what_is_another_name_for_the_it_system
-  - what_is_the_origin_of_the_it_system
-  - what_is_wrong_with_meeting_face_to_face
-  - what_is_wrong_with_video_conferencing
-  - what_is_wrong_with_postal_services
-  - what_should_our_powerful_leaders_do
-  - end_result_of_the_it_system
-  - what_about_a_more_perfect_union
-  - how_does_the_it_system_create_a_more_perfect_union
-  - coronavirus_example_problem
-  - what_about_justice
-  - what_about_the_birth_lottery
-  - what_about_social_justice
-  - what_is_wrong_with_our_current_justice_system
-  - is_it_possible_to_satisfy_all_claims_of_injury
-  - do_you_want_anarchy
-  - democracy_can_not_work
-  - what_about_insuring_domestic_tranquility
-  - about_prisons
-  - about_claims_of_injury
-  - example_of_actual_domestic_tranquility
-  - what_about_providing_for_the_common_defense
-  - healthiness
-  - about_needing_more_than_basic_skills_for_defense
-  - aptitude_database
-  - competance_and_merit
-  - corruption
-  - systemic_corruption
-  - what_about_promoting_the_general_welfare
-  - about_wealth_gaps
-  - how_can_we_discourage_wealth_in_zero_sum_games
-  - theft_is_already_illegal
-  - what_is_a_game
-  - what_is_zero_sum
-  - not_all_theft_is_equal
-  - example_of_providing_for_general_welfare
-  - what_is_basic_oppportunity
-  - what_about_the_rich
-  - about_zero_sum
-  - robotics
-  - safety_nets
-  - what_about_securing_liberty
-  - anarchy_is_liberty
-  - democracy_is_tyranny_by_the_majority
-  - globalism
-  - sacrifice
-  - war
-  - what_is_your_religion
-  - what_does_religion_mean_to_you
-  - belief
-  - big_bang_theory
-  - christianity
-  - buddhism
-  - shamanism
-  - islam
-  - health_care_responsibility
-  - health_care_costs
-  - military
-  - military_spending
-  - military_purpose
-  - how_does_democracy_impact_the_military
-  - how_do_you_know_the_military_is_inefficient
-  - councils
-  - why_do_we_need_councils
-  - appointees
-  - committees
-  - drugs
-  - education
-  - housing
-  - doctors
-  - medicine
-  - conservatives
-  - liberals
-
+- greet
+- education
+- what_is_gavins_it_system
+- the_primary_answer
+- goodbye
+- who_is_gavin
+- why_gavin_is_a_candidate
+- why_gavin_created_the_bot
+- what_the_candidate_should_do
+- intentions_alone_are_not_satisfactory
+- primary_goal
+- political_opinions
+- scapegoat
+- what_is_wrong_with_the_internet
+- how_should_we_utilize_the_internet
+- what_is_crowd_sourcing
+- what_is_a_crowd_sourcing_example
+- what_is_another_name_for_the_it_system
+- what_is_the_origin_of_the_it_system
+- what_is_wrong_with_meeting_face_to_face
+- what_is_wrong_with_video_conferencing
+- what_is_wrong_with_postal_services
+- what_should_our_powerful_leaders_do
+- end_result_of_the_it_system
+- what_about_a_more_perfect_union
+- how_does_the_it_system_create_a_more_perfect_union
+- coronavirus_example_problem
+- what_about_justice
+- what_about_the_birth_lottery
+- what_about_social_justice
+- what_is_wrong_with_our_current_justice_system
+- is_it_possible_to_satisfy_all_claims_of_injury
+- do_you_want_anarchy
+- democracy_can_not_work
+- what_about_insuring_domestic_tranquility
+- about_prisons
+- about_claims_of_injury
+- example_of_actual_domestic_tranquility
+- what_about_providing_for_the_common_defense
+- healthiness
+- about_needing_more_than_basic_skills_for_defense
+- aptitude_database
+- competance_and_merit
+- corruption
+- systemic_corruption
+- what_about_promoting_the_general_welfare
+- about_wealth_gaps
+- how_can_we_discourage_wealth_in_zero_sum_games
+- theft_is_already_illegal
+- what_is_a_game
+- what_is_zero_sum
+- not_all_theft_is_equal
+- example_of_providing_for_general_welfare
+- what_is_basic_oppportunity
+- what_about_the_rich
+- about_zero_sum
+- robotics
+- safety_nets
+- what_about_securing_liberty
+- anarchy_is_liberty
+- democracy_is_tyranny_by_the_majority
+- globalism
+- sacrifice
+- war
+- what_is_your_religion
+- what_does_religion_mean_to_you
+- belief
+- big_bang_theory
+- christianity
+- buddhism
+- shamanism
+- islam
+- health_care_responsibility
+- health_care_costs
+- military
+- military_spending
+- military_purpose
+- how_does_democracy_impact_the_military
+- how_do_you_know_the_military_is_inefficient
+- councils
+- why_do_we_need_councils
+- appointees
+- committees
+- drugs
+- housing
+- doctors
+- medicine
+- conservatives
+- liberals
 responses:
-  utter_greet:
-  - text: "Greetings.  I am a bot representing Gavin Palmer from Opelika, Alabama."
-
-  utter_goodbye:
-  - text: "Bye bye"
-
-  utter_ask_rephrase:
-  - text: "I don't recognize your intent.  This bot is learning slowly.  Try a different sentence."
-
-  utter_who_is_gavin:
-  - text: "Gavin is a professional software engineer who believes software engineers can help bring more peace on Earth."
-
-  utter_why_gavin_is_a_candidate:
-  - text: "Gavin wants peace on Earth."
-
-  utter_why_gavin_created_the_bot:
-  - text: "Gavin created me so that we may one day work together to solve important problems."
-
-  utter_what_the_candidate_should_do:
-  - text: "The preamble to the United States' Constitution represents the right intentions for all volunteers."
-  utter_intentions_alone_are_not_satisfactory:
-  - text: "Combining the right intentions and the wrong actions can be very dangerous and counterproductive."
-
-# Primary Goal
-
-  utter_primary_goal:
-  - text: "My primary goal is to develop the technology which facilitates true democracy by effectively organizing the labor of volunteers."
-
-# Political Opinions
-
-  utter_political_opinions:
-  - text: "My opinion on a specific topic is not as important as the people's opinion on a specific topic.  But I will share my opinion with the hope of encouraging a learning opportunity in order to shape public opinion while receiving feedback from the people."
-
-# Gavin's IT System
-
-  utter_scapegoat:
-  - text: "The IT system is a kind of scapegoat which should be blamed and improved methodically.  Learn from our mistakes."
-  utter_what_is_gavins_it_system:
-  - text: "Gavin's IT system is the ever-improving processes and technologies which facilitate constant, useful, and meaningful communication."
-  utter_what_is_wrong_with_the_internet:
-  - text: "The internet is only a networking infrastructure which can be used in an infinite number of ways.  It can be utilized better."
-  utter_how_should_we_utilize_the_internet:
-  - text: "People should be able to use the internet to produce and consume constant, useful, and meaningful information via crowd sourcing."
-  utter_what_is_crowd_sourcing:
-  - text: "Crowd sourcing allows volunteers to cooperatively solve difficult and complex problems."
-  utter_what_is_a_crowd_sourcing_example:
-  - text: "The stack exchange networks are an example of crowd sourced questions and answers."
-  utter_what_is_another_name_for_the_it_system:
-  - text: "Another name for Gavin's IT system is the 4th branch of government whereby the people are empowered to implement a true democracy through volunteering."
-  utter_what_is_the_origin_of_the_it_system:
-  - text: "The various forms and methods of transmitting information represent an IT system which has evolved and improved throughout history."
-  utter_what_is_wrong_with_meeting_face_to_face:
-  - text: "People should not be required to meet in person when they can effectively meet in a virtual space."
-  utter_what_is_wrong_with_video_conferencing:
-  - text: "Video conferencing can degenerate as the number of people in the conference increases."
-  utter_what_is_wrong_with_postal_services:
-  - text: "The postal service is slow and can degenerate as the number of people using the postal service increases."
-  utter_what_should_our_powerful_leaders_do:
-  - text: "Our powerful leaders need software engineers and data scientists tasked with facilitating the crowd sourcing efforts of volunteers."
-  utter_end_result_of_the_it_system:
-  - text: "The cost of government decreases as true democracy increases.  Therefore, the end result is a government maintained through democratic volunteering."
-
-# The More Perfect Union
-
-  utter_what_about_a_more_perfect_union:
-  - text: "A more perfect union depends on an ever-improving IT system which faciliates communication at scale."
-  utter_how_does_the_it_system_create_a_more_perfect_union:
-  - text: "Unions between people become more perfect as the people are able to volunteer more effectively."
-  utter_coronavirus_example_problem:
-  - text: "During the COVID-19 lockdowns, a need for COBOL softare developers was communicated without providing a means by which software engineers could volunteer their services."
-
-# Justice
-
-  utter_what_about_justice:
-  - text: "Justice is based in allowing people with claims of injury to have their claims treated with care through the IT system."
-  utter_what_about_the_birth_lottery:
-  - text: "People who ignore the birth lottery and believe the world is already just will not want to change the existing justice system."
-  utter_what_about_social_justice:
-  - text: "All claims of injury should be treated with care through the IT system."
-  utter_what_is_wrong_with_our_current_justice_system:
-  - text: "A better justice system which facilitates satisfying people's claims of injury does not require law enforcement."
-  utter_is_it_possible_to_satisfy_all_claims_of_injury:
-  - text: "We should try to work toward a future where all claims of injury are answered to the satisfaction of the person making the claim."
-  utter_do_you_want_anarchy:
-  - text: "A functional democracy is the goal of the IT system."
-  utter_democracy_can_not_work:
-  - text: "There has never existed a democracy nor can one exist without a sufficient IT system."
-
-# Domestic Tranquility
-
-  utter_what_about_insuring_domestic_tranquility:
-  - text: "Domestic tranquility is one metric by which we can measure the correctness of the IT system."
-  utter_about_prisons:
-  - text: "The amount of people in prison is a metric which informs us about the state of our domestic tranquility goal."
   utter_about_claims_of_injury:
-  - text: "The amount of injury claims is a metric which informs us about the state of our domestic tranquility goal."
-  utter_example_of_actual_domestic_tranquility:
-  - text: "People would not need to do any work if domestic tranquility existed."
-
-# Common Defense
-
-  utter_what_about_providing_for_the_common_defense:
-  - text: "All people should be given the opportunity to learn some basic skills which help provide for our common defense."
-  utter_healthiness:
-  - text: "All people should be given the opportunity to maintain their health in order to provide for the common defense."
+  - text: The amount of injury claims is a metric which informs us about the state
+      of our domestic tranquility goal.
   utter_about_needing_more_than_basic_skills_for_defense:
-  - text: "We should identify people's aptitude and interests in order to develop advanced skills which help provide for our common defense."
-  utter_aptitude_database:
-  - text: "We need to maintain a database where people can volunarily have their aptitude recorded and monitored."
-  utter_competance_and_merit:
-  - text: "The common defense is best provided when people are given power because of competence and merit."
-  utter_corruption:
-  - text: "People only gain power without competance and merit when there exists some form of systemic corruption."
-  utter_systemic_corruption:
-  - text: "All complex systems are corrupted to some degree.  All complex systems can be improved and tuned.  Tuning often needs to change based on input variables."
-
-# General Welfare
-
-  utter_what_about_promoting_the_general_welfare:
-  - text: "The general welfare is promoted as people and organizations learn and improve via the IT system."
+  - text: We should identify people's aptitude and interests in order to develop advanced
+      skills which help provide for our common defense.
+  utter_about_prisons:
+  - text: The amount of people in prison is a metric which informs us about the state
+      of our domestic tranquility goal.
   utter_about_wealth_gaps:
-  - text: "We want to discourage the growing of wealth via zero sum games and encourage the growing of wealth via non-zero sum games."
-  utter_how_can_we_discourage_wealth_in_zero_sum_games:
-  - text: "We should really understand theft and try to avoid it."
-  utter_theft_is_already_illegal:
-  - text: "Many resources are limited and profiting from limited resources is theft-like.  Artificially limiting resources is theft-like."
-  utter_what_is_a_game:
-  - text: "An economic game can be considered to be a market opportunity."
-  utter_what_is_zero_sum:
-  - text: "A zero sum game is one in which some player must lose in order for another player to win.  All zero sum games are theft-like."
-  utter_not_all_theft_is_equal:
-  - text: "Stealing jewelry from the wealthy is not nearly the same as stealing a fisherman's gear he uses to feed his family."
-  utter_example_of_providing_for_general_welfare:
-  - text: "An existence with basic opportunity provides all people with basic opportunity as overall opportunity generally increases each year."
-  utter_what_is_basic_oppportunity:
-  - text: "Basic opportunity would be clean water, food, shelter, clothing, and access to the IT system by which education can occur."
-  utter_what_about_the_rich:
-  - text: "There will be disparities in wealth so long as there is freedom.  But we can provide basic opportunity for all people to grow wealth in a non zero sum market game."
+  - text: We want to discourage the growing of wealth via zero sum games and encourage
+      the growing of wealth via non-zero sum games.
   utter_about_zero_sum:
-  - text: "People should not gain extraordinary wealth by providing for basic opportunity."
-  utter_robotics:
-  - text: "The best way to provide basic opportunity is to use automation and robotics to gaurantee access to water, food, clothing, and futuristic libraries.  Clothing is an efficient form of shelter.  Libraries are an efficient form of access to the IT system."
-  utter_safety_nets:
-  - text: "Safety nets should not be gauranteed."
-
-# Securing Liberty
-
-  utter_what_about_securing_liberty:
-  - text: "Liberty is best secured by remembering that it is never absolutely gauranteed."
+  - text: People should not gain extraordinary wealth by providing for basic opportunity.
   utter_anarchy_is_liberty:
-  - text: "A true democracy will look very much like a true anarchy because authority will remain with the people."
-  utter_democracy_is_tyranny_by_the_majority:
-  - text: "The majority is composed of individuals who will never agree on everything.  Decentralization will facilitate liberty and democracy."
-  utter_globalism:
-  - text: "A highly decentralized universal democracy is the end goal."
-  utter_sacrifice:
-  - text: "Liberty requires sacrifice.  Sometimes you must relocate in order to gain your liberty."
-  utter_war:
-  - text: "War is the result of a failure to communicate effectively."
-
-# Religion
-
-  utter_what_is_your_religion:
-  - text: "My religion is mine alone, and no other person can share it with me."
-  utter_what_does_religion_mean_to_you:
-  - text: "We should be encouraged to encounter and consider many different kinds of stories."
-  utter_belief:
-  - text: "Wise people can remember stories without believing them."
-  utter_big_bang_theory:
-  - text: "The big bang theory is a story."
-  utter_christianity:
-  - text: "My favorite Christians say God is Love."
-  utter_buddhism:
-  - text: "My favorite Buddhists know Peace."
-  utter_shamanism:
-  - text: "Shamanism treats all life as sacred without fear of death."
-  utter_islam:
-  - text: "Usary is not allowed in Islam."
-
-# Health Care
-
-  utter_health_care_responsibility:
-  - text: "Each able adult is supposed to be primarily responsible for their own health."
-  utter_health_care_costs:
-  - text: "A better IT system will help solve many supply and demand problems which impact costs."
-
-# Military
-
-  utter_military:
-  - text: "All able people should have access to basic training for the common defense."
-  utter_military_spending:
-  - text: "We waste much money because the government does not have the correct IT systems to facilitate volunteering."
-  utter_military_purpose:
-  - text: "The government must task software engineers and data scientists with creating a better IT system to facilitate volunteering."
-  utter_how_does_democracy_impact_the_military:
-  - text: "Every organization suffers from the same IT problems which prevent volunteers from operating effectively."
-  utter_how_do_you_know_the_military_is_inefficient:
-  - text: "I worked for 6 years helping to develop software used in the Army's missile defense systems."
-
-# Councils
-
-  utter_councils:
-  - text: "A request for candidates is issued and anyone can apply.  It appears that nobody is looking for better council and this indicates incompetence."
-  utter_why_do_we_need_councils:
-  - text: "We only need councils until we have a proper IT system.  Until then councils can perform the function previously performed by appointees and committees."
-
-# Appointees
-
+  - text: A true democracy will look very much like a true anarchy because authority
+      will remain with the people.
   utter_appointees:
-  - text: "Required appointees should be chosen using an IT system which allows candidates to apply for interview, testing, and review."
-
-# Committees
-
+  - text: Required appointees should be chosen using an IT system which allows candidates
+      to apply for interview, testing, and review.
+  utter_aptitude_database:
+  - text: We need to maintain a database where people can volunarily have their aptitude
+      recorded and monitored.
+  utter_ask_rephrase:
+  - text: I don't recognize your intent.  This bot is learning slowly.  Try a different
+      sentence.
+  utter_belief:
+  - text: Wise people can remember stories without believing them.
+  utter_big_bang_theory:
+  - text: The big bang theory is a story.
+  utter_buddhism:
+  - text: My favorite Buddhists know Peace.
+  utter_christianity:
+  - text: My favorite Christians say God is Love.
   utter_committees:
-  - text: "There is no need for committees.  They exist for the purpose of undermining the people."
-
-# Drugs
-
-  utter_drugs:
-  - text: "Mind altering substances need to be legalized in order to facilitate research and accelerate our understanding of mental health."
-
-# Education
-
-  utter_education:
-  - text: "Our education systems should facilitate the opportunity for each person to easily provide vital services without unnecessary burdens like financial debt."
-
-# Housing
-
-  utter_housing:
-  - text: "The cost of housing is too high because of rules which limit who can borrow from the Federal Reserve."
-
-# Doctors
-
-  utter_doctors:
-  - text: "The supply of doctors is low because of many kinds of rules which limit the number of doctors in the market."
-
-# Medicine
-
-  utter_medicine:
-  - text: "The price of many medicines is extraordinarily high because of the controlled substances act and the food and drug administration."
-
-# Other
-
+  - text: There is no need for committees.  They exist for the purpose of undermining
+      the people.
+  utter_competance_and_merit:
+  - text: The common defense is best provided when people are given power because
+      of competence and merit.
   utter_conservatives:
-  - text: "Conservatives are risk averse."
-
+  - text: Conservatives are risk averse.
+  utter_coronavirus_example_problem:
+  - text: During the COVID-19 lockdowns, a need for COBOL softare developers was communicated
+      without providing a means by which software engineers could volunteer their
+      services.
+  utter_corruption:
+  - text: People only gain power without competance and merit when there exists some
+      form of systemic corruption.
+  utter_councils:
+  - text: A request for candidates is issued and anyone can apply.  It appears that
+      nobody is looking for better council and this indicates incompetence.
+  utter_democracy_can_not_work:
+  - text: There has never existed a democracy nor can one exist without a sufficient
+      IT system.
+  utter_democracy_is_tyranny_by_the_majority:
+  - text: The majority is composed of individuals who will never agree on everything.  Decentralization
+      will facilitate liberty and democracy.
+  utter_do_you_want_anarchy:
+  - text: A functional democracy is the goal of the IT system.
+  utter_doctors:
+  - text: The supply of doctors is low because of many kinds of rules which limit
+      the number of doctors in the market.
+  utter_drugs:
+  - text: Mind altering substances need to be legalized in order to facilitate research
+      and accelerate our understanding of mental health.
+  utter_education:
+  - text: Our education systems should facilitate the opportunity for each person
+      to easily provide vital services without unnecessary burdens like financial
+      debt.
+  utter_end_result_of_the_it_system:
+  - text: The cost of government decreases as true democracy increases.  Therefore,
+      the end result is a government maintained through democratic volunteering.
+  utter_example_of_actual_domestic_tranquility:
+  - text: People would not need to do any work if domestic tranquility existed.
+  utter_example_of_providing_for_general_welfare:
+  - text: An existence with basic opportunity provides all people with basic opportunity
+      as overall opportunity generally increases each year.
+  utter_globalism:
+  - text: A highly decentralized universal democracy is the end goal.
+  utter_goodbye:
+  - text: Bye bye
+  utter_greet:
+  - text: Greetings.  I am a bot representing Gavin Palmer from Opelika, Alabama.
+  utter_health_care_costs:
+  - text: A better IT system will help solve many supply and demand problems which
+      impact costs.
+  utter_health_care_responsibility:
+  - text: Each able adult is supposed to be primarily responsible for their own health.
+  utter_healthiness:
+  - text: All people should be given the opportunity to maintain their health in order
+      to provide for the common defense.
+  utter_housing:
+  - text: The cost of housing is too high because of rules which limit who can borrow
+      from the Federal Reserve.
+  utter_how_can_we_discourage_wealth_in_zero_sum_games:
+  - text: We should really understand theft and try to avoid it.
+  utter_how_do_you_know_the_military_is_inefficient:
+  - text: I worked for 6 years helping to develop software used in the Army's missile
+      defense systems.
+  utter_how_does_democracy_impact_the_military:
+  - text: Every organization suffers from the same IT problems which prevent volunteers
+      from operating effectively.
+  utter_how_does_the_it_system_create_a_more_perfect_union:
+  - text: Unions between people become more perfect as the people are able to volunteer
+      more effectively.
+  utter_how_should_we_utilize_the_internet:
+  - text: People should be able to use the internet to produce and consume constant,
+      useful, and meaningful information via crowd sourcing.
+  utter_intentions_alone_are_not_satisfactory:
+  - text: Combining the right intentions and the wrong actions can be very dangerous
+      and counterproductive.
+  utter_is_it_possible_to_satisfy_all_claims_of_injury:
+  - text: We should try to work toward a future where all claims of injury are answered
+      to the satisfaction of the person making the claim.
+  utter_islam:
+  - text: Usary is not allowed in Islam.
   utter_liberals:
-  - text: "Liberals are not risk averse."
-
+  - text: Liberals are not risk averse.
+  utter_medicine:
+  - text: The price of many medicines is extraordinarily high because of the controlled
+      substances act and the food and drug administration.
+  utter_military:
+  - text: All able people should have access to basic training for the common defense.
+  utter_military_purpose:
+  - text: The government must task software engineers and data scientists with creating
+      a better IT system to facilitate volunteering.
+  utter_military_spending:
+  - text: We waste much money because the government does not have the correct IT
+      systems to facilitate volunteering.
+  utter_not_all_theft_is_equal:
+  - text: Stealing jewelry from the wealthy is not nearly the same as stealing a fisherman's
+      gear he uses to feed his family.
+  utter_political_opinions:
+  - text: My opinion on a specific topic is not as important as the people's opinion
+      on a specific topic.  But I will share my opinion with the hope of encouraging
+      a learning opportunity in order to shape public opinion while receiving feedback
+      from the people.
+  utter_primary_goal:
+  - text: My primary goal is to develop the technology which facilitates true democracy
+      by effectively organizing the labor of volunteers.
+  utter_robotics:
+  - text: The best way to provide basic opportunity is to use automation and robotics
+      to gaurantee access to water, food, clothing, and futuristic libraries.  Clothing
+      is an efficient form of shelter.  Libraries are an efficient form of access
+      to the IT system.
+  utter_sacrifice:
+  - text: Liberty requires sacrifice.  Sometimes you must relocate in order to gain
+      your liberty.
+  utter_safety_nets:
+  - text: Safety nets should not be gauranteed.
+  utter_scapegoat:
+  - text: The IT system is a kind of scapegoat which should be blamed and improved
+      methodically.  Learn from our mistakes.
+  utter_shamanism:
+  - text: Shamanism treats all life as sacred without fear of death.
+  utter_systemic_corruption:
+  - text: All complex systems are corrupted to some degree.  All complex systems can
+      be improved and tuned.  Tuning often needs to change based on input variables.
+  utter_the_primary_answer:
+  - text: All of our problems become easier to solve as we improve our IT system.
+  utter_theft_is_already_illegal:
+  - text: Many resources are limited and profiting from limited resources is theft-like.  Artificially
+      limiting resources is theft-like.
+  utter_war:
+  - text: War is the result of a failure to communicate effectively.
+  utter_what_about_a_more_perfect_union:
+  - text: A more perfect union depends on an ever-improving IT system which faciliates
+      communication at scale.
+  utter_what_about_insuring_domestic_tranquility:
+  - text: Domestic tranquility is one metric by which we can measure the correctness
+      of the IT system.
+  utter_what_about_justice:
+  - text: Justice is based in allowing people with claims of injury to have their
+      claims treated with care through the IT system.
+  utter_what_about_promoting_the_general_welfare:
+  - text: The general welfare is promoted as people and organizations learn and improve
+      via the IT system.
+  utter_what_about_providing_for_the_common_defense:
+  - text: All people should be given the opportunity to learn some basic skills which
+      help provide for our common defense.
+  utter_what_about_securing_liberty:
+  - text: Liberty is best secured by remembering that it is never absolutely gauranteed.
+  utter_what_about_social_justice:
+  - text: All claims of injury should be treated with care through the IT system.
+  utter_what_about_the_birth_lottery:
+  - text: People who ignore the birth lottery and believe the world is already just
+      will not want to change the existing justice system.
+  utter_what_about_the_rich:
+  - text: There will be disparities in wealth so long as there is freedom.  But we
+      can provide basic opportunity for all people to grow wealth in a non zero sum
+      market game.
+  utter_what_does_religion_mean_to_you:
+  - text: We should be encouraged to encounter and consider many different kinds of
+      stories.
+  utter_what_is_a_crowd_sourcing_example:
+  - text: The stack exchange networks are an example of crowd sourced questions and
+      answers.
+  utter_what_is_a_game:
+  - text: An economic game can be considered to be a market opportunity.
+  utter_what_is_another_name_for_the_it_system:
+  - text: Another name for Gavin's IT system is the 4th branch of government whereby
+      the people are empowered to implement a true democracy through volunteering.
+  utter_what_is_basic_oppportunity:
+  - text: Basic opportunity would be clean water, food, shelter, clothing, and access
+      to the IT system by which education can occur.
+  utter_what_is_crowd_sourcing:
+  - text: Crowd sourcing allows volunteers to cooperatively solve difficult and complex
+      problems.
+  utter_what_is_gavins_it_system:
+  - text: Gavin's IT system is the ever-improving processes and technologies which
+      facilitate constant, useful, and meaningful communication.
+  utter_what_is_the_origin_of_the_it_system:
+  - text: The various forms and methods of transmitting information represent an IT
+      system which has evolved and improved throughout history.
+  utter_what_is_wrong_with_meeting_face_to_face:
+  - text: People should not be required to meet in person when they can effectively
+      meet in a virtual space.
+  utter_what_is_wrong_with_our_current_justice_system:
+  - text: A better justice system which facilitates satisfying people's claims of
+      injury does not require law enforcement.
+  utter_what_is_wrong_with_postal_services:
+  - text: The postal service is slow and can degenerate as the number of people using
+      the postal service increases.
+  utter_what_is_wrong_with_the_internet:
+  - text: The internet is only a networking infrastructure which can be used in an
+      infinite number of ways.  It can be utilized better.
+  utter_what_is_wrong_with_video_conferencing:
+  - text: Video conferencing can degenerate as the number of people in the conference
+      increases.
+  utter_what_is_your_religion:
+  - text: My religion is mine alone, and no other person can share it with me.
+  utter_what_is_zero_sum:
+  - text: A zero sum game is one in which some player must lose in order for another
+      player to win.  All zero sum games are theft-like.
+  utter_what_should_our_powerful_leaders_do:
+  - text: Our powerful leaders need software engineers and data scientists tasked
+      with facilitating the crowd sourcing efforts of volunteers.
+  utter_what_the_candidate_should_do:
+  - text: The preamble to the United States' Constitution represents the right intentions
+      for all volunteers.
+  utter_who_is_gavin:
+  - text: Gavin is a professional software engineer who believes software engineers
+      can help bring more peace on Earth.
+  utter_why_do_we_need_councils:
+  - text: We only need councils until we have a proper IT system.  Until then councils
+      can perform the function previously performed by appointees and committees.
+  utter_why_gavin_created_the_bot:
+  - text: Gavin created me so that we may one day work together to solve important
+      problems.
+  utter_why_gavin_is_a_candidate:
+  - text: Gavin wants peace on Earth.
 session_config:
-  session_expiration_time: 360  # value in minutes
   carry_over_slots_to_new_session: true
+  session_expiration_time: 360
