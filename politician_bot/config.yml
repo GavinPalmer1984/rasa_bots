@@ -1,12 +1,17 @@
 language: en
 
-pipeline: supervised_embeddings
+pipeline:
+  - name: WhitespaceTokenizer
+    case_sensitive: false
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: EmbeddingIntentClassifier
 
 policies:
-  - name: KerasPolicy
-  - name: "FallbackPolicy"
-    nlu_threshold: 0.7
-    core_threshold: 0.6
-    fallback_action_name: "utter_ask_rephrase"
   - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: FormPolicy
   - name: MappingPolicy

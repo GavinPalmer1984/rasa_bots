@@ -353,3 +353,7 @@
 ## the_primary_answer
 * the_primary_answer
 - utter_the_primary_answer
+
+## how_to_help
+* how_to_help
+- utter_how_to_help

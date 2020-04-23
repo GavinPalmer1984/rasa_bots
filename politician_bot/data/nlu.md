@@ -27,6 +27,10 @@
 ## intent:why_gavin_created_the_bot
 - why did gavin create this bot
 - why am I talking to a bot
+- who are you?
+- who are you
+- what are you
+- are you a bot
 
 ## intent:what_the_candidate_should_do
 - what should the president do
@@ -580,12 +584,6 @@
 - learning
 - teaching
 - growth mindset
-- i am being ignored
-- i have good ideas but nobody is listening
-- i can't get in touch
-- i want to help
-- what can I do to help?
-- I want to help
 
 ## intent:housing
 - banks should not charge interest
@@ -633,3 +631,17 @@
 - how do we solve
 - how do we
 - how do we end world hunger?
+
+## intent:how_to_help
+- how can I help
+- what can I do to help
+- what can I do
+- i want to help
+- I would like to help
+- i am being ignored
+- i have good ideas but nobody is listening
+- i can't get in touch
+- what can I do to help?
+- I want to help
+- i want
+- help

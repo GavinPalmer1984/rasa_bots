@@ -1,4 +1,5 @@
 actions:
+- utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
 - utter_about_prisons
@@ -91,6 +92,7 @@ actions:
 - utter_why_gavin_is_a_candidate
 intents:
 - greet
+- how_to_help
 - education
 - what_is_gavins_it_system
 - the_primary_answer
@@ -432,6 +434,9 @@ responses:
       problems.
   utter_why_gavin_is_a_candidate:
   - text: Gavin wants peace on Earth.
+  utter_how_to_help:
+  - text: You can help by connecting and volunteering to solve problems.  Please share your contact info with me.  Thanks!
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360
