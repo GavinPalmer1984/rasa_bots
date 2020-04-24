@@ -1,4 +1,5 @@
 actions:
+- utter_journal_entry_april_24_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -91,6 +92,7 @@ actions:
 - utter_why_gavin_created_the_bot
 - utter_why_gavin_is_a_candidate
 intents:
+- journal_entry_april_24_2020
 - greet
 - how_to_help
 - education
@@ -436,7 +438,8 @@ responses:
   - text: Gavin wants peace on Earth.
   utter_how_to_help:
   - text: You can help by connecting and volunteering to solve problems.  Please share your contact info with me.  Thanks!
-
+  utter_journal_entry_april_24_2020:
+  - text: I went looking for people like me and found the IOTA Foundation.  I have attempted to connect and learn more about working together.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360

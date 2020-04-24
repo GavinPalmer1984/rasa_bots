@@ -357,3 +357,7 @@
 ## how_to_help
 * how_to_help
 - utter_how_to_help
+
+## journal_entry_april_24_2020
+* journal_entry_april_24_2020
+- utter_journal_entry_april_24_2020

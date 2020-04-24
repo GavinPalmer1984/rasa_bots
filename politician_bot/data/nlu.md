@@ -645,3 +645,9 @@
 - I want to help
 - i want
 - help
+
+## intent:journal_entry_april_24_2020
+- 04/24/2020
+- april 24, 2020
+- april 24th 2020
+- Friday April 24th 2020
