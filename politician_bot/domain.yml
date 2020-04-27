@@ -1,6 +1,7 @@
 actions:
 - utter_journal_entry_april_24_2020
 - utter_journal_entry_april_25_2020
+- utter_journal_entry_april_27_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -443,6 +444,8 @@ responses:
   - text: I went looking for people like me and found the IOTA Foundation.  I have attempted to connect and learn more about working together.
   utter_journal_entry_april_25_2020:
   - text: Consuming non-fiction for answers is easier than discovering answers on your own.  But that process of discovery is valuable.  It helps you recognize the signal from the noise.
+  utter_journal_entry_april_27_2020:
+  - text: We have systemic problems which all result from our inability to communicate effectively.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360

@@ -657,3 +657,9 @@
 - april 25, 2020
 - april 25th 2020
 - Friday April 25th 2020
+
+## intent:journal_entry_april_27_2020
+- 04/27/2020
+- april 27, 2020
+- april 27th 2020
+- Monday April 27th 2020
