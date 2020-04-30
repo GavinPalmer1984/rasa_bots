@@ -2,6 +2,8 @@ actions:
 - utter_journal_entry_april_24_2020
 - utter_journal_entry_april_25_2020
 - utter_journal_entry_april_27_2020
+- utter_journal_entry_april_29_2020
+- utter_journal_entry_april_30_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -95,6 +97,10 @@ actions:
 - utter_why_gavin_is_a_candidate
 intents:
 - journal_entry_april_24_2020
+- journal_entry_april_25_2020
+- journal_entry_april_27_2020
+- journal_entry_april_29_2020
+- journal_entry_april_30_2020
 - greet
 - how_to_help
 - education
@@ -446,6 +452,10 @@ responses:
   - text: Consuming non-fiction for answers is easier than discovering answers on your own.  But that process of discovery is valuable.  It helps you recognize the signal from the noise.
   utter_journal_entry_april_27_2020:
   - text: We have systemic problems which all result from our inability to communicate effectively.
+  utter_journal_entry_april_29_2020:
+  - text: Today I reached out to the Federal Reserve and asked why people aren't allowed to borrow directly fro the Federal Reserve.
+  utter_journal_entry_april_30_2020:
+  - text: I reached out to four political parties and introduced the idea of forming a coalition around election reform.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360
