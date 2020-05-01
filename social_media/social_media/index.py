@@ -2,6 +2,15 @@ import os
 import json
 import requests
 from datetime import datetime
+import tweepy
+
+api_key = os.getenv('TWITTER_API_KEY')
+api_secret = os.getenv('TWITTER_API_SECRET')
+token = os.getenv('TWITTER_ACCESS_TOKEN')
+token_secret = os.getenv('TWITTER_TOKEN_SECRET')
+auth = tweepy.OAuthHandler(api_key, api_secret)
+auth.set_access_token(token, token_secret)
+api = tweepy.API(auth)
 
 months = {
     'january': 1,
@@ -19,11 +28,7 @@ months = {
 }
 
 def tweet(text):
-    api_key = os.get('TWITTER_API_KEY')
-    api_secret = os.get('TWITTER_API_SECRET')
-    token = os.get('TWITTER_ACCESS_TOKEN')
-    token_secret = os.get('TWITTER_TOKEN_SECRET')
-    print(f'tweet:{text}')
+    api.update_status(text)
 
 def lambda_handler(event, context):
     text = None
