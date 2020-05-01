@@ -4,6 +4,7 @@ actions:
 - utter_journal_entry_april_27_2020
 - utter_journal_entry_april_29_2020
 - utter_journal_entry_april_30_2020
+- utter_journal_entry_may_01_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -101,6 +102,7 @@ intents:
 - journal_entry_april_27_2020
 - journal_entry_april_29_2020
 - journal_entry_april_30_2020
+- journal_entry_may_01_2020
 - greet
 - how_to_help
 - education
@@ -456,6 +458,8 @@ responses:
   - text: Today I reached out to the Federal Reserve and asked why people aren't allowed to borrow directly fro the Federal Reserve.
   utter_journal_entry_april_30_2020:
   - text: I reached out to four political parties and introduced the idea of forming a coalition around election reform.
+  utter_journal_entry_may_01_2020:
+  - text: I responded to Lex Fridman today as he willfully ignores the most important problem faced by every human.  The problem which will likely cause him to ignore me.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360

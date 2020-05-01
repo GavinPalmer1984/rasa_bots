@@ -668,10 +668,16 @@
 - 04/29/2020
 - april 29, 2020
 - april 29th 2020
-- Tuesday April 29th 2020
+- Wednesday April 29th 2020
 
 ## intent:journal_entry_april_30_2020
 - 04/30/2020
 - april 30, 2020
 - april 30th 2020
-- Wednesday April 30th 2020
+- Thursday April 30th 2020
+
+## intent:journal_entry_may_01_2020
+- 05/01/2020
+- may 01, 2020
+- may 1st 2020
+- Friday May 1st 2020

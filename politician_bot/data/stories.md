@@ -377,3 +377,7 @@
 ## journal_entry_april_30_2020
 * journal_entry_april_30_2020
 - utter_journal_entry_april_30_2020
+
+## journal_entry_may_01_2020
+* journal_entry_may_01_2020
+- utter_journal_entry_may_01_2020
