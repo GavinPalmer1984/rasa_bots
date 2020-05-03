@@ -6,6 +6,7 @@ actions:
 - utter_journal_entry_april_30_2020
 - utter_journal_entry_may_01_2020
 - utter_journal_entry_may_02_2020
+- utter_journal_entry_may_03_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -105,6 +106,7 @@ intents:
 - journal_entry_april_30_2020
 - journal_entry_may_01_2020
 - journal_entry_may_02_2020
+- journal_entry_may_03_2020
 - greet
 - how_to_help
 - education
@@ -464,6 +466,8 @@ responses:
   - text: I responded to Lex Fridman today as he willfully ignores the most important problem faced by every human.  The problem which will likely cause him to ignore me.
   utter_journal_entry_may_02_2020:
   - text: Teams of great engineers can find themselves wasting energy because of unnecessary constraints, restrictions, and regulations.
+  utter_journal_entry_may_03_2020:
+  - text: I practice being able to switch my emotional state at will.  I practice avoiding getting stuck in an emotional state.  I practice being willing to experience an uncomfortable emotional state.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360

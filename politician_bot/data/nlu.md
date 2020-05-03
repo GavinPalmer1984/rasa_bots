@@ -687,3 +687,9 @@
 - may 02, 2020
 - may 2nd 2020
 - Saturday May 2nd 2020
+
+## intent:journal_entry_may_03_2020
+- 05/03/2020
+- may 03, 2020
+- may 3rd 2020
+- Sunday May 3rd 2020
