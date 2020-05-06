@@ -28,7 +28,8 @@ months = {
 }
 
 def tweet(text):
-    api.update_status(text)
+    print(f'tweet:{text}')
+    response = api.update_status(text)
 
 def lambda_handler(event, context):
     text = None
@@ -37,6 +38,7 @@ def lambda_handler(event, context):
     for line in response.text.split("\n"):
         parts = line.split('  utter_journal_entry_')
         if len(parts) > 1:
+            print(f'check journal entry:{line}')
             date_parts = parts[1].split('_')
             month = date_parts[0]
             day = date_parts[1]

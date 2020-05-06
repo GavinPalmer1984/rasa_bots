@@ -1,3 +1,4 @@
 *.tar.gz
 *.dot
 social_media/.env
+writings/*
