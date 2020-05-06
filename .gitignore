@@ -2,3 +2,4 @@
 *.dot
 social_media/.env
 writings/*
+.DS_Store
