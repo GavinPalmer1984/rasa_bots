@@ -8,6 +8,7 @@ actions:
 - utter_journal_entry_may_02_2020
 - utter_journal_entry_may_03_2020
 - utter_journal_entry_may_06_2020
+- utter_journal_entry_may_10_2020
 - utter_how_to_help
 - utter_about_claims_of_injury
 - utter_about_needing_more_than_basic_skills_for_defense
@@ -109,6 +110,7 @@ intents:
 - journal_entry_may_02_2020
 - journal_entry_may_03_2020
 - journal_entry_may_06_2020
+- journal_entry_may_10_2020
 - greet
 - how_to_help
 - education
@@ -472,6 +474,8 @@ responses:
   - text: I practice being able to switch my emotional state at will.  I practice avoiding getting stuck in an emotional state.  I practice being willing to experience an uncomfortable emotional state.
   utter_journal_entry_may_06_2020:
   - text: Organizations are a kind of technology.  You can pick up a tool and use it for good even if it has previously been used in ways you disagree.
+  utter_journal_entry_may_10_2020:
+  - text: A person on public property merely suspected of a crime should not be confronted without a proper warrant issued by a proper authority using the proper process.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 360

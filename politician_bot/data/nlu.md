@@ -699,3 +699,9 @@
 - may 06, 2020
 - may 6th 2020
 - Wednesday May 6th 2020
+
+## intent:journal_entry_may_10_2020
+- 05/10/2020
+- may 10, 2020
+- may 10th 2020
+- Sunday May 10th 2020

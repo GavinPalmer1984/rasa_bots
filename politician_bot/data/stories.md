@@ -393,3 +393,7 @@
 ## journal_entry_may_06_2020:
 * journal_entry_may_06_2020
 - utter_journal_entry_may_06_2020
+
+## journal_entry_may_10_2020:
+* journal_entry_may_10_2020
+- utter_journal_entry_may_10_2020
